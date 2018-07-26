@@ -9,9 +9,6 @@ public class ReverseInteger {
 
 class Solution1 {
     public int reverse(int x) {
-        for (int i = 0; i < 10000; i++) {
-            i++;
-        }
         int ost;
         long rez = 0;
         while (x != 0) {
